@@ -1,0 +1,84 @@
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[Jmeghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004h[7mcd ~/code_task/TASK_1358 || { echo [7m"[7mRepo folder not found"; exit 1; }[27m[K
+[K
+[7m# create and activate venv if not already[27m[K
+[7mpython3 -m venv .venv[27m[K
+[7msource .venv/bin/activate[27m[K[5A[20C[27mc[27md[27m [27m~[27m/[27mc[27mo[27md[27me[27m_[27mt[27ma[27ms[27mk[27m/[27mT[27mA[27mS[27mK[27m_[27m1[27m3[27m5[27m8[27m [27m|[27m|[27m [27m{[27m [27me[27mc[27mh[27mo[27m "[27mR[27me[27mp[27mo[27m [27mf[27mo[27ml[27md[27me[27mr[27m [27mn[27mo[27mt[27m [27mf[27mo[27mu[27mn[27md[27m"[27m;[27m [27me[27mx[27mi[27mt[27m [27m1[27m;[27m [27m}[2B[27m#[27m [27mc[27mr[27me[27ma[27mt[27me[27m [27ma[27mn[27md[27m [27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[27m [27mv[27me[27mn[27mv[27m [27mi[27mf[27m [27mn[27mo[27mt[27m [27ma[27ml[27mr[27me[27ma[27md[27my[1B[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mv[27me[27mn[27mv[27m [27m.[27mv[27me[27mn[27mv[1B[27ms[27mo[27mu[27mr[27mc[27me[27m [27m.[27mv[27me[27mn[27mv[27m/[27mb[27mi[27mn[27m/[27ma[27mc[27mt[27mi[27mv[27ma[27mt[27me[?2004l
+zsh: command not found: #
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[J(.venv) meghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004h[7mpython3 -m pip install --up[7mg[7mrade pip setuptools[27m[K
+[7m# install dev deps[27m[K
+[7mpython3 -m pip install pytest flake8[27m[K[3A[17C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m-[27m-[27mu[27mpg[27mr[27ma[27md[27me[27m [27mp[27mi[27mp[27m [27ms[27me[27mt[27mu[27mp[27mt[27mo[27mo[27ml[27ms[1B[27m#[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27md[27me[27mv[27m [27md[27me[27mp[27ms[1B[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mp[27my[27mt[27me[27ms[27mt[27m [27mf[27ml[27ma[27mk[27me[27m8[?2004l
+Requirement already satisfied: pip in ./.venv/lib/python3.9/site-packages (25.3)
+Requirement already satisfied: setuptools in ./.venv/lib/python3.9/site-packages (58.0.4)
+Collecting setuptools
+  Using cached setuptools-80.9.0-py3-none-any.whl.metadata (6.6 kB)
+Using cached setuptools-80.9.0-py3-none-any.whl (1.2 MB)
+Installing collected packages: setuptools
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 58.0.4
+    Uninstalling setuptools-58.0.4:
+      Successfully uninstalled setuptools-58.0.4
+Successfully installed setuptools-80.9.0
+zsh: command not found: #
+Collecting pytest
+  Using cached pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)
+Collecting flake8
+  Using cached flake8-7.3.0-py2.py3-none-any.whl.metadata (3.8 kB)
+Requirement already satisfied: exceptiongroup>=1 in ./.venv/lib/python3.9/site-packages (from pytest) (1.3.0)
+Collecting iniconfig>=1 (from pytest)
+  Using cached iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: packaging>=20 in ./.venv/lib/python3.9/site-packages (from pytest) (25.0)
+Collecting pluggy<2,>=1.5 (from pytest)
+  Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting pygments>=2.7.2 (from pytest)
+  Using cached pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting tomli>=1 (from pytest)
+  Using cached tomli-2.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting mccabe<0.8.0,>=0.7.0 (from flake8)
+  Using cached mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+Collecting pycodestyle<2.15.0,>=2.14.0 (from flake8)
+  Using cached pycodestyle-2.14.0-py2.py3-none-any.whl.metadata (4.5 kB)
+Collecting pyflakes<3.5.0,>=3.4.0 (from flake8)
+  Using cached pyflakes-3.4.0-py2.py3-none-any.whl.metadata (3.5 kB)
+Requirement already satisfied: typing-extensions>=4.6.0 in ./.venv/lib/python3.9/site-packages (from exceptiongroup>=1->pytest) (4.15.0)
+Using cached pytest-8.4.2-py3-none-any.whl (365 kB)
+Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Using cached flake8-7.3.0-py2.py3-none-any.whl (57 kB)
+Using cached mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Using cached pycodestyle-2.14.0-py2.py3-none-any.whl (31 kB)
+Using cached pyflakes-3.4.0-py2.py3-none-any.whl (63 kB)
+Using cached iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Using cached tomli-2.3.0-py3-none-any.whl (14 kB)
+Installing collected packages: tomli, pygments, pyflakes, pycodestyle, pluggy, mccabe, iniconfig, pytest, flake8
+[?25l[2K   [38;5;197m━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1/9[0m [pygments][2K   [38;5;197m━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1/9[0m [pygments][2K   [38;5;197m━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1/9[0m [pygments][2K   [38;5;197m━━━━━━━━[0m[38;5;197m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2/9[0m [pyflakes][2K   [38;5;197m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━[0m [32m7/9[0m [pytest][2K   [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m9/9[0m [flake8]
+[?25h[1A[2KSuccessfully installed flake8-7.3.0 iniconfig-2.1.0 mccabe-0.7.0 pluggy-1.6.0 pycodestyle-2.14.0 pyflakes-3.4.0 pygments-2.19.2 pytest-8.4.2 tomli-2.3.0
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[J(.venv) meghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004heexit  e  [7mcd ~/code_task/TASK_1358[27m
+[K
+[7mmv claude_model_a_transcript.txt model_a/[27m[K
+[7mmv claude_model_b_transcript.txt model_b/[27m[K
+[K[4A[53C[27mc[27md[27m [27m~[27m/[27mc[27mo[27md[27me[27m_[27mt[27ma[27ms[27mk[27m/[27mT[27mA[27mS[27mK[27m_[27m1[27m3[27m5[27m8[2B[27mm[27mv[27m [27mc[27ml[27ma[27mu[27md[27me[27m_[27mm[27mo[27md[27me[27ml[27m_[27ma[27m_[27mt[27mr[27ma[27mn[27ms[27mc[27mr[27mi[27mp[27mt[27m.[27mt[27mx[27mt[27m [27mm[27mo[27md[27me[27ml[27m_[27ma[27m/[1B[27mm[27mv[27m [27mc[27ml[27ma[27mu[27md[27me[27m_[27mm[27mo[27md[27me[27ml[27m_[27mb[27m_[27mt[27mr[27ma[27mn[27ms[27mc[27mr[27mi[27mp[27mt[27m.[27mt[27mx[27mt[27m [27mm[27mo[27md[27me[27ml[27m_[27mb[27m/[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[J(.venv) meghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004h[7mls model_a[27m
+[7mls model_b[27m[K
+[K[A[A[53C[27ml[27ms[27m [27mm[27mo[27md[27me[27ml[27m_[27ma[1B[27ml[27ms[27m [27mm[27mo[27md[27me[27ml[27m_[27mb[1B[K[?2004l
+LICENSE				requirements.txt
+README.md			setup.py
+claude_model_a_transcript.txt	src
+pyproject.toml			tests
+requirements-dev.txt
+LICENSE				src
+README.md			tests
+claude_model_b_transcript.txt
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[J(.venv) meghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004hlls[?2004l
+artifacts	logs		model_a		setup.py	submit.py
+init.py		manifest.json	model_b		snapshots	task1358-repo
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[J(.venv) meghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004h[7mls model_a[27m[10D[27ml[27ms[27m [27mm[27mo[27md[27me[27ml[27m_[27ma[?2004l
+LICENSE				requirements.txt
+README.md			setup.py
+claude_model_a_transcript.txt	src
+pyproject.toml			tests
+requirements-dev.txt
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[J(.venv) meghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004h[7mls model_b[27m[10D[27ml[27ms[27m [27mm[27mo[27md[27me[27ml[27m_[27mb[?2004l
+LICENSE				src
+README.md			tests
+claude_model_b_transcript.txt
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Meghas-MacBook-Air.local/Users/meghaaggarwal/code_task/TASK_1358[0m[27m[24m[J(.venv) meghaaggarwal@Meghas-MacBook-Air TASK_1358 % [K[?2004h
